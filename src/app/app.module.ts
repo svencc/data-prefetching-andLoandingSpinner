@@ -32,6 +32,7 @@ import {CourseDetailResolver} from './course-detail/course-detail.resolver';
 // import {AngularFireDatabaseModule} from "@angular/fire/database";
 import { MessagesPanelComponent } from './messages-panel/messages-panel.component';
 import {AngularFireDatabaseModule} from '@angular/fire/database';
+import { LoadingComponent } from './loading/loading.component';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import {AngularFireDatabaseModule} from '@angular/fire/database';
         CourseComponent,
         LessonDetailComponent,
         SafeUrlPipe,
-        MessagesPanelComponent
+        MessagesPanelComponent,
+        LoadingComponent
     ],
     imports: [
         BrowserModule,
