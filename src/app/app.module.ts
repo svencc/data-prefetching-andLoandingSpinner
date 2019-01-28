@@ -29,6 +29,7 @@ import {SafeUrlPipe} from "./shared/pipes/safe-url.pipe";
 import {LessonsPagerService} from "./services/lessons-pager.service";
 import {AngularFireAuthModule} from "@angular/fire/auth";
 import {AngularFireDatabaseModule} from "@angular/fire/database";
+import { MessagesPanelComponent } from './messages-panel/messages-panel.component';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import {AngularFireDatabaseModule} from "@angular/fire/database";
         AllLessonsComponent,
         CourseComponent,
         LessonDetailComponent,
-        SafeUrlPipe
+        SafeUrlPipe,
+        MessagesPanelComponent
     ],
     imports: [
         BrowserModule,
